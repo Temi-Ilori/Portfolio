@@ -65,8 +65,8 @@
 
         section {
             max-width: 1000px;
-            margin: 0 auto 80px;
-            padding: 80px 0;
+            margin: 0 auto 72px;
+            padding: 88px 0 72px;
         }
 
         h2 {
@@ -222,12 +222,13 @@
         .hero > * { position: relative; z-index: 1; }
         .hero p:first-child { color: var(--accent-color); font-family: var(--font-mono); margin-bottom: 20px; }
         .hero h1 { font-size: 3.8rem; color: var(--text-color-primary); line-height: 1.1; margin-bottom: 10px; }
-        .hero h2 { font-size: 2.8rem; color: var(--text-color-tertiary); line-height: 1.1; margin-bottom: 30px; min-height: 100px; }
+        .hero h2 { font-size: 2.8rem; color: var(--text-color-tertiary); line-height: 1.1; margin-bottom: 24px; min-height: 78px; }
         .hero h2::after { display: none; }
         .hero .intro-copy {
-            max-width: 720px;
-            margin-bottom: 30px;
+            max-width: 760px;
+            margin-bottom: 34px;
             color: var(--text-color-secondary);
+            font-size: 1.05rem;
         }
 
         #about p {
@@ -295,7 +296,7 @@
 
         .timeline-content h3 span { color: var(--text-color-secondary); font-weight: normal; }
         .timeline-content .date { font-family: var(--font-mono); color: var(--text-color-tertiary); font-size: 0.8rem; margin-bottom: 1rem; }
-        .timeline-content ul { font-size: 1rem; }
+        .timeline-content ul { font-size: 1rem; margin-top: 0.5rem; }
 
         .project-cards {
             display: grid;
@@ -316,7 +317,7 @@
 
         .card:hover { transform: translateY(-7px); }
         .card-content { flex-grow: 1; }
-        .card-content p { margin-bottom: 1rem; }
+        .card-content p { margin-bottom: 1.15rem; }
         .card-content ul { font-size: 0.95rem; }
 
         .card h3 {
@@ -372,7 +373,7 @@
         .publication-card h3 { color: var(--text-color-primary); font-size: 1.4rem; margin-bottom: 1rem; }
         .publication-card ul { font-size: 0.95rem; }
 
-        .contact-section { text-align: center; max-width: 650px; }
+        .contact-section { text-align: center; max-width: 720px; }
         .contact-section h2 { justify-content: center; }
         .contact-section h2::after { display: none; }
         .contact-section .button { margin-top: 20px; font-size: 1rem; }
@@ -441,7 +442,7 @@
 
         @media (max-width: 768px) {
             main { padding: 0 50px; }
-            section { padding: 60px 0; }
+            section { padding: 60px 0 52px; }
             .hero { padding: 0 25px; }
             .hero h1 { font-size: 2.8rem; }
             .hero h2 { font-size: 2rem; min-height: 80px; }
@@ -476,7 +477,7 @@
             <p data-aos="fade-up" data-aos-delay="100">Hi, my name is</p>
             <h1 data-aos="fade-up" data-aos-delay="200">Temi Ilori.</h1>
             <h2 data-aos="fade-up" data-aos-delay="300" class="tagline"></h2>
-            <p class="intro-copy" data-aos="fade-up" data-aos-delay="400">I'm a Solutions Architect with hands-on experience across cloud systems, networking, APIs, and technical support. I design practical systems, translate business needs into technical direction, and help teams move from troubleshooting to scalable implementation.</p>
+            <p class="intro-copy" data-aos="fade-up" data-aos-delay="400">I'm a Solutions Architect candidate with hands-on experience in cloud systems, networking, APIs, and technical support. I design practical solutions, translate business needs into technical direction, and bring the kind of systems thinking that fits Solutions Architect and Systems Engineer internship roles.</p>
             <div class="hero-buttons" data-aos="fade-up" data-aos-delay="500">
                 <a href="https://www.linkedin.com/in/temiilori/" target="_blank" class="button">Get In Touch</a>
                 <a href="./Temiloluwa-Ilori-Resume.pdf" download class="button">Download Resume</a>
@@ -485,13 +486,13 @@
 
         <section id="about" data-aos="fade-up">
             <h2>About Me</h2>
-            <p>I introduce myself as a Solutions Architect because that is how I naturally approach problems. I connect business needs to technical design, think through system constraints early, and look for clear paths from discovery to implementation.</p>
-            <p>My background spans enterprise networking support, cloud-hosted application development, REST APIs, and operational troubleshooting. That range helps me communicate well with both technical teams and non-technical stakeholders while keeping solutions grounded in real delivery conditions.</p>
-            <p>I am especially drawn to Solutions Architect and Systems Engineer roles where success depends on reliability, stakeholder trust, clean integrations, and the ability to make technical complexity feel manageable.</p>
+            <p>I position myself around Solutions Architecture because that is the lens I naturally use. I like connecting business needs to technical design, identifying constraints early, and shaping solutions that are practical to build, support, and explain.</p>
+            <p>My background spans enterprise networking support, cloud-hosted application development, REST APIs, and operational troubleshooting. That mix helps me move comfortably between technical detail, customer context, and implementation decisions.</p>
+            <p>I'm especially drawn to Solutions Architect and Systems Engineer internships where reliability, communication, and clean systems thinking matter as much as writing the code itself.</p>
         </section>
 
         <section id="skills" data-aos="fade-up">
-            <h2>My Toolkit</h2>
+            <h2>Core Toolkit</h2>
             <div class="skills-grid">
                 <div class="skill-category">
                     <h3>Programming & Databases</h3>
@@ -533,7 +534,7 @@
         </section>
 
         <section id="experience" data-aos="fade-up">
-            <h2>Where I've Worked</h2>
+            <h2>Experience</h2>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-content">
@@ -572,7 +573,7 @@
         </section>
 
         <section id="projects" data-aos="fade-up">
-            <h2>Things I've Built</h2>
+            <h2>Selected Projects</h2>
             <div class="project-cards">
                 <div class="card">
                     <div class="project-links">
@@ -583,7 +584,7 @@
                         <p>An interactive stock portfolio simulator that lets users build allocations, compare performance against the S&amp;P 500, and evaluate diversification using live financial data.</p>
                         <ul>
                             <li>Built a dark-mode financial dashboard with watchlists, diversification scoring, and real-time market event signals.</li>
-                            <li>Integrated Finnhub market data and surfaced risk context in a way that makes portfolio performance easier to interpret.</li>
+                            <li>Integrated Finnhub market data and surfaced risk context in a format that makes portfolio performance easier to interpret.</li>
                             <li>Deployed the application on S3 static website hosting as a cloud-hosted financial analytics tool.</li>
                         </ul>
                     </div>
@@ -602,7 +603,7 @@
                         <ul>
                             <li>Built CRUD REST endpoints for recipes, ingredients, and inventory relationships.</li>
                             <li>Added validation and atomic inventory deduction logic to prevent inconsistent stock states across write operations.</li>
-                            <li>Designed the system as a cloud-minded backend project using Flask, SQL, and AWS Aurora concepts.</li>
+                            <li>Designed the system as a backend project that shows data integrity, state management, and cloud-minded systems thinking.</li>
                         </ul>
                     </div>
                     <div class="tech-stack">
@@ -630,7 +631,7 @@
         </section>
 
         <section id="contact" class="contact-section" data-aos="fade-up">
-            <h2>What's Next?</h2>
+            <h2>Let's Connect</h2>
             <p>I'm actively seeking Solutions Architect, Systems Engineer internship opportunities where I can contribute to cloud-focused systems, technical delivery, and reliable customer-facing solutions.<br>My inbox is always open, whether you want to talk architecture, networking, APIs, or platform design.<br>Feel free to reach out. I'd be glad to connect.</p>
             <div class="contact-actions">
                 <a href="https://www.linkedin.com/in/temiilori/" class="button" target="_blank" rel="noopener noreferrer">Say Hello</a>
